@@ -9,7 +9,7 @@ fn main() {
             break;
         }
 
-        println!("{:>5} {}", i, &buf);
+        print!("{:>5} {}", i, &buf);
         i += 1;
     }
 }
